@@ -140,7 +140,7 @@ Each model class defines a mapping between the database table and the applicatio
 This mapping is based on naming conventions.
 i.e.: 'professor' model maps to a 'professors' database table.
 
---->**Migration [database/migrations/2023_10_19_094147_create_professors_table.php]**
+--->**Migration [database/migrations/TSTAMP_create_professors_table.php]**
 Migrations help you create new tables in your database or change existing ones.
 Each migration file contains instructions on what the table should look like.
 Like a database 'blueprint' or 'cookbook'.
@@ -150,7 +150,7 @@ Controllers organize your application's logic into reusable and maintainable cla
 i.e.: rendering views or returning JSON data.
 
 ## 7- Migration:
-Go to the **[database/migrations/2023_10_19_094147_create_professors_table.php]**
+Go to the **[database/migrations/TSTAMP_create_professors_table.php]**
 Edit the "up()" function to include the columns you want:
 
 ```php
